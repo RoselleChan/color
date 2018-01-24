@@ -1,7 +1,13 @@
+redcolor = PVector(50, 50)
+
 def setup():
     size(1000, 800)
     
 def draw():
     # globals
+    global redcolor
     
     # color palette
+    background(255)
+    color(255, 45, 78)
+    ellipse(100, 100, redcolor.x, redcolor.y)
